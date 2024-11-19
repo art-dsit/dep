@@ -393,7 +393,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "graphrag", git = "https://github.com/microsoft/graphrag.git" },
+    { name = "graphrag", git = "ssh://git@github.com/microsoft/graphrag.git" },
     { name = "pydantic", specifier = ">=2.9.2" },
 ]
 
@@ -518,7 +518,7 @@ wheels = [
 [[package]]
 name = "graphrag"
 version = "0.5.0"
-source = { git = "https://github.com/microsoft/graphrag.git#6d21ef268377e319a165ca2250bd6841737df1ad" }
+source = { git = "ssh://git@github.com/microsoft/graphrag.git#6d21ef268377e319a165ca2250bd6841737df1ad" }
 dependencies = [
     { name = "aiofiles" },
     { name = "aiolimiter" },
